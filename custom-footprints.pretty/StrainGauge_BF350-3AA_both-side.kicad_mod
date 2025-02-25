@@ -1,26 +1,249 @@
-(module StrainGauge_BF350-3AA_both-side (layer F.Cu) (tedit 654EE698)
-  (fp_text reference REF** (at 0 6.25) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value StrainGauge_BF350-3AA_both-side (at 0 -4.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 1 3.25) (end 1 2.25) (layer F.SilkS) (width 0.12))
-  (fp_line (start -1 3.25) (end -1 2.25) (layer F.SilkS) (width 0.12))
-  (fp_poly (pts (xy -2.5 0) (xy -3 0.5) (xy -3 -0.5)) (layer F.SilkS) (width 0.1))
-  (fp_poly (pts (xy 3 0.5) (xy 2.5 0) (xy 3 -0.5)) (layer F.SilkS) (width 0.1))
-  (fp_line (start -2.5 -5.25) (end -2.5 2.25) (layer F.SilkS) (width 0.12))
-  (fp_line (start 2.5 -5.25) (end -2.5 -5.25) (layer F.SilkS) (width 0.12))
-  (fp_line (start 2.5 2.25) (end 2.5 -5.25) (layer F.SilkS) (width 0.12))
-  (fp_line (start -2.5 2.25) (end 2.5 2.25) (layer F.SilkS) (width 0.12))
-  (fp_line (start -2.5 -5.25) (end 2.5 -5.25) (layer B.SilkS) (width 0.12))
-  (fp_line (start 2.5 -5.25) (end 2.5 2.25) (layer B.SilkS) (width 0.12))
-  (fp_line (start 2.5 2.25) (end -2.5 2.25) (layer B.SilkS) (width 0.12))
-  (fp_line (start -2.5 2.25) (end -2.5 -5.25) (layer B.SilkS) (width 0.12))
-  (fp_line (start -1 2.25) (end -1 3.25) (layer B.SilkS) (width 0.12))
-  (fp_line (start 1 3.25) (end 1 2.25) (layer B.SilkS) (width 0.12))
-  (fp_poly (pts (xy 3 0.5) (xy 2.5 0) (xy 3 -0.5)) (layer B.SilkS) (width 0.1))
-  (fp_poly (pts (xy -2.5 0) (xy -3 0.5) (xy -3 -0.5)) (layer B.SilkS) (width 0.1))
-  (pad 1 thru_hole circle (at -1 4.25) (size 1.524 1.524) (drill 0.5) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 1 4.25) (size 1.524 1.524) (drill 0.5) (layers *.Cu *.Mask))
+(footprint "StrainGauge_BF350-3AA_both-side"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.826 -1.778 0)
+		(layer "F.SilkS")
+		(uuid "39a98240-db8b-4acb-b840-0687dec71146")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "StrainGauge_BF350-3AA_both-side"
+		(at 0 -4.5 0)
+		(layer "F.Fab")
+		(uuid "e480b590-8295-4b64-8a24-8c9f1f66a54c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61952b4c-5db6-44d1-b9cf-fe100bb70e1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4364eb6d-056d-4fd2-b8f8-a53b1270ebe8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bacdb2b-b7ee-40eb-bf33-17c80aa359b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.5 -5.25)
+		(end 2.5 -5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "0acb6075-b064-41e1-b351-1499c57bdae1")
+	)
+	(fp_line
+		(start -2.5 2.25)
+		(end -2.5 -5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "414f5b2a-3782-462a-94a9-6a45bb4a3a9c")
+	)
+	(fp_line
+		(start -1 2.25)
+		(end -1 4.064)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "c877161b-1e8d-49c1-b356-e10c6840b010")
+	)
+	(fp_line
+		(start 1 4.064)
+		(end 1 2.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "bbdb0bfd-08ba-4e37-9847-98501c615001")
+	)
+	(fp_line
+		(start 2.5 -5.25)
+		(end 2.5 2.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "f8378586-b019-476f-87a5-037774a5dd59")
+	)
+	(fp_line
+		(start 2.5 2.25)
+		(end -2.5 2.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "c467edff-65dd-4199-ad23-4b23c52e5ceb")
+	)
+	(fp_poly
+		(pts
+			(xy -2.5 0) (xy -3 0.5) (xy -3 -0.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "567699ca-cc14-47a9-8ea0-8b65d7c550b2")
+	)
+	(fp_poly
+		(pts
+			(xy 3 0.5) (xy 2.5 0) (xy 3 -0.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "1a6e9283-8a4d-4a92-bfc0-9ce0b70bbd39")
+	)
+	(fp_line
+		(start -2.5 -5.25)
+		(end -2.5 2.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67936ce2-9574-4735-9015-ee43daa6758d")
+	)
+	(fp_line
+		(start -2.5 2.25)
+		(end 2.5 2.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "500712c1-b91f-4c38-90b9-be5d4d4abb7b")
+	)
+	(fp_line
+		(start -1 4.064)
+		(end -1 2.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34761291-83c7-4849-bd04-f4a6f52a7e4e")
+	)
+	(fp_line
+		(start 1 4.064)
+		(end 1 2.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "165de749-ea72-4333-ac7a-c8873d38c9f1")
+	)
+	(fp_line
+		(start 2.5 -5.25)
+		(end -2.5 -5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47c8554a-50e2-47a6-aac7-ace91ebea765")
+	)
+	(fp_line
+		(start 2.5 2.25)
+		(end 2.5 -5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "febe4a99-0b10-4c12-bc93-d6ed65c4bca1")
+	)
+	(fp_poly
+		(pts
+			(xy -2.5 0) (xy -3 0.5) (xy -3 -0.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "5d20bc4a-6b93-43a0-bf11-30b3a59cdc7c")
+	)
+	(fp_poly
+		(pts
+			(xy 3 0.5) (xy 2.5 0) (xy 3 -0.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "06ed98f5-18fd-4ad8-9ce9-06d869b1e1db")
+	)
+	(pad "1" thru_hole circle
+		(at -1 5.08)
+		(size 1.524 1.524)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7edb34b9-c86a-4a92-8c65-7f9367c6af91")
+	)
+	(pad "2" thru_hole circle
+		(at 1 5.08)
+		(size 1.524 1.524)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "336078b0-f9c3-42c9-8dc0-f99c0fce029e")
+	)
 )
