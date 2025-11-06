@@ -1,13 +1,14 @@
-(footprint "piezo-pad"
+(footprint "mounting-hole_m2p5_tight"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 6.75 -2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "74a4fad3-3c0b-4926-af56-2eb7b0ce48a4")
+		(hide yes)
+		(uuid "b8f45971-2215-4592-b0d5-efe0a9ec77ee")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "piezo-pad"
+	(property "Value" "mounting-hole_m2p5_tight"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b360915d-4133-467f-85ae-4be3e49f061f")
+		(uuid "5750352d-efcd-4ab3-94b5-0801f8609189")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5ff56283-b7d2-4d64-93c2-b9917523b0f6")
+		(uuid "0c987243-5e6f-4aa6-98da-16a99c52aff1")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "66888683-a7f1-4790-8893-911af940b8eb")
+		(uuid "fb5fc11a-54bb-4cfd-9d1c-ada6e67fc0f5")
 		(effects
 			(font
 				(size 1 1)
@@ -58,7 +59,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f7553b6c-7776-48ee-a643-98980bf3df0b")
+		(uuid "654d06bd-ebaa-4d5c-8018-bea4bbd23cf8")
 		(effects
 			(font
 				(size 1 1)
@@ -71,7 +72,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d0ad6877-a1d7-4d4f-8d23-b1d09e6548d7")
+		(uuid "f0de5836-8fd3-4ca3-b5be-00836ffe2496")
 		(effects
 			(font
 				(size 1 1)
@@ -79,11 +80,12 @@
 			)
 		)
 	)
-	(pad "1" smd roundrect
+	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 3 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.125)
-		(uuid "e2d7c903-80dc-41fa-872f-872419c13a56")
+		(size 6 6)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8faf5a28-17d3-433f-a4be-19481953dc08")
 	)
 )
